@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root type="javafx.scene.layout.VBox" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="number" alignment="CENTER" maxWidth="1.7976931348623157E308" text="Block N°: " />
+      <Label fx:id="miner" alignment="CENTER" text="Miner: ">
+         <VBox.margin>
+            <Insets top="3.0" />
+         </VBox.margin></Label>
+      <Label fx:id="hash" alignment="CENTER" text="Hash: ">
+         <VBox.margin>
+            <Insets top="3.0" />
+         </VBox.margin></Label>
+      <Label fx:id="txCount" alignment="CENTER" text="Transactions: ">
+         <VBox.margin>
+            <Insets top="3.0" />
+         </VBox.margin></Label>
+      <Label fx:id="titleTx" alignment="CENTER" text="Last 10 transactions: ">
+         <VBox.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </VBox.margin></Label>
+      <ListView fx:id="txsView" fixedCellSize="30.0" maxWidth="1.7976931348623157E308" />
+      <Label text="Double click on a transaction to see it on Etherscan!">
+         <font>
+            <Font name="Roboto Light" size="10.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+      </Label>
+   </children>
+</fx:root>

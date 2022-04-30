@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root type="javafx.scene.layout.FlowPane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+       <Label fx:id="balance" text="0.000000">
+           <font>
+               <Font size="20.0" />
+           </font></Label>
+       <ImageView cache="true" fitHeight="25" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+           <image>
+               <Image url="@../res/eth.png" />
+           </image>
+         <FlowPane.margin>
+            <Insets left="5.0" />
+         </FlowPane.margin>
+       </ImageView>
+   </children>
+</fx:root>

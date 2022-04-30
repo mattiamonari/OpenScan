@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root prefWidth="600.0" type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Label fx:id="blockNumber" alignment="CENTER" text="BlockNumber" textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="10.0" />
+         </BorderPane.margin></Label>
+   </top>
+   <center>
+      <VBox fx:id="infoContainer">
+         <children>
+            <Label fx:id="hash" alignment="CENTER" maxWidth="1.7976931348623157E308" text="Label">
+               <VBox.margin>
+                  <Insets left="4.0" right="4.0" />
+               </VBox.margin></Label>
+            <Label fx:id="miner" alignment="CENTER" maxWidth="1.7976931348623157E308" text="Label">
+               <VBox.margin>
+                  <Insets left="4.0" right="4.0" />
+               </VBox.margin></Label>
+            <Label fx:id="txCount" alignment="CENTER" maxWidth="1.7976931348623157E308" text="Label">
+               <VBox.margin>
+                  <Insets left="4.0" right="4.0" />
+               </VBox.margin></Label>
+         </children></VBox>
+   </center>
+</fx:root>

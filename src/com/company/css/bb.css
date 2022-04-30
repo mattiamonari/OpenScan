@@ -1,0 +1,20 @@
+.backbutton{
+    -fx-border-color: #222222;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: transparent;
+    -fx-text-fill: #222222;
+}
+
+/*
+#222222
+*/
+
+.backbutton:hover{
+    -fx-border-color: orange;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: transparent;
+    -fx-text-fill: orange;
+    -fx-effect: dropshadow(one-pass-box, rgba(255, 223, 163, 1), 0, 0, 5,5);
+}
